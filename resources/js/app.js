@@ -16,7 +16,7 @@ let app_data = [],
 	dates = [];
 
 //Get users country code using geoplugin api
-let region = geoplugin_countryCode() ?? 'network issues plaese!';
+let region = geoplugin_countryCode() ?? 'network issues please!';
 let user_country;
 country_list.forEach((country) => {
 	if(country.code == region) {
